@@ -141,7 +141,7 @@
 
     let r = [retorno, extras, "css-cmdscalc"].filter(Boolean).join(" ").trim();
     while (r.includes("  ")) {
-      r = r.replace("  ", " ");
+      r = r.replaceAll("  ", " ");
     }
     return r;
     
@@ -427,7 +427,7 @@
                   }
                   estados.push(
                     estadoActual
-                      .map((v) => v.trim().replace("&", ","))
+                      .map((v) => v.trim().replaceAll("&", ","))
                       .filter(Boolean)
                       .join(" ")
                   );
