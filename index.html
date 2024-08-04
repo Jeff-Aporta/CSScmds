@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DiseñoAdaptativo JS</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://jeff-aporta.github.io/portafolio/src/imgs/icon.png"
+    />
+
+    <script src="https://jeff-aporta.github.io/ASCIIMapLoader/index.js"></script>
+    <script src="https://jeff-aporta.github.io/ASCIIMapLoader/src/mapeos-personales.js"></script>
+
+    <meta property="og:site_name" content="CSScmds JS" />
+    <meta property="og:title" content="CSScmds JS" />
+    <meta
+      property="og:description"
+      content="Adapta tu diseño web de forma controlada según el ancho de la ventana"
+    />
+    <meta
+      property="og:image"
+      content="https://jeff-aporta.github.io/Dise-oAdaptativo-JS/src/img/logo.jpeg"
+    />
+
+    <script>
+      delete ASCII_MAPS.CSSCMDS;
+
+      Object.values(ASCII_MAPS).forEach((map) => {
+        runASCIIMapLoader_inLine(map);
+      });
+
+      runASCIIMapLoader_inLine(`
+            📄 index.js
+            
+            🤖 REACT (JSX)
+
+            ➤📁 src
+            │
+            ├──📁 esquema
+            ╧   └──📄 contenido
+
+            📄 index
+        `);
+    </script>
+  </head>
+
+  <body></body>
+</html>
