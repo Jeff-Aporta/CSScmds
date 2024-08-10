@@ -1,4 +1,4 @@
-const _DISEÑO_ADAPTATIVO_ = new GenerarContenidoLibreria({
+const _CSScmds_ = new GenerarContenidoLibreria({
     nombre: "CSScmds JS",
     slogan: "Adapta tu diseño web de forma controlada según el ancho de la ventana",
     img: 'src/img/logo.jpeg',

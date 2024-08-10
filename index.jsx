@@ -2,7 +2,7 @@ ReactDOM.render(
     <div className="esquema-principal">
         <div className="contenedor-pagina">
             <EnvolventePagina>
-                {esquemaGeneralLibreria(_DISEÑO_ADAPTATIVO_)}
+                {esquemaGeneralLibreria(_CSScmds_)}
             </EnvolventePagina>
             <BotonLinkPortafolio />
         </div>
