@@ -646,39 +646,6 @@
     })();
   }
 
-  /*
-    :root {
-        --i: 500px;
-        --ni: 500;
-        --f: 1000px;
-        --nf: 1000;
-
-        --vis: 15px;
-        --vi: 15;
-        --vf: 30;
-
-        --t: calc((100vw - var(--i)) / (var(--nf) - var(--ni)));
-        --t-ends: clamp(0px, var(--t), 1px);
-        --t-end-open: max(0px, var(--t)); 
-        --t-open-end: clamp(-1px, var(--t), 1px); 
-
-        --lerp: calc(
-          (var(--vf) - var(--vi)) * var(--t) + var(--vis)
-        );
-        --lerp-ends: calc(
-          (var(--vf) - var(--vi)) * var(--t-ends) + var(--vis)
-        );
-        --lerp-end-open: calc(
-          (var(--vf) - var(--vi)) * var(--t-end-open) + var(--vis)
-        );
-        --lerp-open-end: calc(
-          (var(--vf) - var(--vi)) * var(--t-open-end) + var(--vis)
-        );
-    }
-
-    1000px<-x->500px?width:(300px,50px);height:(300px,50px);
-  */
-
   function buscarClase(obj, comando) {
     if (!obj || !comando) {
       return;
