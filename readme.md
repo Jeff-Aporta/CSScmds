@@ -7,6 +7,6 @@
 <p align="center">
     <img 
         src="https://jeff-aporta.github.io/CSScmds/src/img/logo.jpeg" 
-        width="256"
+        width="200"
     />
 </p>
