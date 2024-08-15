@@ -8,6 +8,5 @@
     <img 
         src="https://jeff-aporta.github.io/CSScmds/src/img/logo.jpeg" 
         width="256"
-        style="margin: auto"
     />
 </center>
