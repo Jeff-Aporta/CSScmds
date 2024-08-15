@@ -4,9 +4,9 @@
 
 <br/>
 <br/>
-<center>
+<p align="center">
     <img 
         src="https://jeff-aporta.github.io/CSScmds/src/img/logo.jpeg" 
         width="256"
     />
-</center>
+</p>
