@@ -6,6 +6,11 @@
     <img 
         src="https://jeff-aporta.github.io/CSScmds/src/img/logo.jpeg" 
         width="256"
-        style="border-radius:20px"
     />
 </center>
+
+<style>
+    img {
+        border-radius:20px
+    }
+</style>
