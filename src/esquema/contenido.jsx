@@ -22,6 +22,27 @@ const _CSScmds_ = new GenerarContenidoLibreria({
 
     secciones: [
         {
+            nombre: "Introducción",
+            contenido: (thisObj) => {
+                return (
+                    <FormatoDoc>
+                        *CSScmds* es una librería de JavaScript que permite aplicar estilos CSS dinámicos en función de interpolación y condiciones.
+                        <div
+                            style={{
+                                maxWidth: "500px",
+                                maxHeight: "400px",
+                                margin: "15px auto",
+                            }}
+                        >
+                            <lite-youtube
+                                videoid="rd_DuG1c4mw"
+                            />
+                        </div>
+                    </FormatoDoc>
+                );
+            }
+        },
+        {
             nombre: "Usar con CDN",
             contenido: (thisObj) => {
                 return (
